@@ -52,8 +52,8 @@ for feature in nonnumeric_columns:
     big_X_imputed[feature] = le.fit_transform(big_X_imputed[feature])
 
 # Prepare the inputs for the model
-train_X = big_X_imputed[0:train_df.shape[0]].values()
-test_X = big_X_imputed[train_df.shape[0]::].values()
+train_X = big_X_imputed[0:train_df.shape[0]].as_matrix()
+test_X = big_X_imputed[train_df.shape[0]::].as_matrix()
 train_y = train_df['Survived']
 
 # You can experiment with many other options here, using the same .fit() and .predict()
