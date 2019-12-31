@@ -1,7 +1,9 @@
-# Algorithms
-Data can be downloaded from 
-https://www.kaggle.com/c/titanic/data
+# Algorithms & Projects
 
-Breast Cancer Classification
+## Breast Cancer Classification
 
-Predicting the Likelihood of E-Signing a Loan Based on Financial History
+## Predicting the Likelihood of E-Signing a Loan Based on Financial History
+
+## Minimizing Churn Rate Through Analysis of Financial Habits
+
+## Titanic dataset - https://www.kaggle.com/c/titanic/data
